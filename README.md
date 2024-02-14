@@ -1,2 +1,3 @@
-# template
-template repository
+# Template Repository
+
+This is a template repository

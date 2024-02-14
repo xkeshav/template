@@ -1,0 +1,57 @@
+{
+  "name": "@xkeshav/template",
+  "version": "0.0.1",
+  "displayName": "Template Repository",
+  "description": "This is a template repository for any new project in github; include basic files",
+  "private": false,
+  "publisher": "@xkeshav",
+  "homepage": "https://github.com/xkeshav/template/blob/main/README.md",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/xkeshav/template/issues",
+    "email": "xkeshav@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xkeshav/template.git"
+  },
+  "keywords": [
+    "xkeshav", 
+    "template",
+    "github"
+  ],
+  "main": "./src/index.js",
+  "author": {
+    "name": "Keshav Mohta",
+    "email": "xkeshav@gmail.com"
+  },
+	"funding": {
+    "type": "individual",
+    "url": "http://xkeshav.com"
+  },
+  "contributors": [],
+  "scripts": {
+    "start": "tsc",
+    "dev": "",
+    "build": "",
+    "lint":"",
+    "test": ""
+  },
+  "dependencies": { },
+  "devDependencies":{ 
+		"typescript": "5.3.3"
+	},
+  "peerDependencies": { },
+	"browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
