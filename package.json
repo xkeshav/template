@@ -1,8 +1,8 @@
 {
-  "name": "@xkeshav/template",
+  "name": "@xkeshav/<project>",
   "version": "0.0.1",
-  "displayName": "Template Repository",
-  "description": "This is a template repository for any new project in github; include basic files",
+  "displayName": "Project Repository",
+  "description": "This is a <project> repository for any new project in github for typescript; including basic files",
   "private": false,
   "publisher": "@xkeshav",
   "homepage": "https://github.com/xkeshav/template/blob/main/README.md",
@@ -17,25 +17,22 @@
   },
   "keywords": [
     "xkeshav", 
-    "template",
-    "github"
+    "typescript",
+    "github",
+    "template"
   ],
   "main": "./src/index.js",
   "author": {
     "name": "Keshav Mohta",
     "email": "xkeshav@gmail.com"
   },
-	"funding": {
+"funding": {
     "type": "individual",
     "url": "http://xkeshav.com"
   },
   "contributors": [],
   "scripts": {
-    "start": "tsc",
-    "dev": "",
-    "build": "",
-    "lint":"",
-    "test": ""
+    "start": "tsc"
   },
   "dependencies": { },
   "devDependencies":{ 
