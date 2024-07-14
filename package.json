@@ -1,9 +1,9 @@
 {
   "name": "@xkeshav/<project>",
   "version": "0.0.1",
-  "displayName": "Project Nam",
-  "description": "This is a <project> repository.",
   "private": false,
+  "displayName": "Project Name",
+  "description": "This is a <project> repository.",
   "publisher": "@xkeshav",
   "homepage": "https://github.com/xkeshav/<project>/blob/main/README.md",
   "license": "SEE LICENSE IN LICENSE",
@@ -21,16 +21,12 @@
     "github",
     "template"
   ],
-  "main": "<src/index.js>",
   "author": {
     "name": "Keshav Mohta",
     "email": "xkeshav@gmail.com"
   },
-"funding": {
-    "type": "individual",
-    "url": "http://www.xkeshav.com"
-  },
   "contributors": [],
+  "main": "src/index.js",
   "scripts": {
     "start": "tsc"
   },
