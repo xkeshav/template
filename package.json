@@ -21,25 +21,27 @@
     "github",
     "template"
   ],
-  "main": "",
+  "main": "<src/index.js>",
   "author": {
     "name": "Keshav Mohta",
     "email": "xkeshav@gmail.com"
   },
 "funding": {
     "type": "individual",
-    "url": "http://xkeshav.com"
+    "url": "http://www.xkeshav.com"
   },
   "contributors": [],
   "scripts": {
     "start": "tsc"
   },
-  "dependencies": { },
+  "dependencies": { 
+    "@xkeshav/day": "latest"
+  },
   "devDependencies":{ 
-	"typescript": "latest"
+      "typescript": "latest"
   },
   "peerDependencies": { },
-	"browserslist": {
+  "browserslist": {
     "production": [
       ">0.2%",
       "not dead",
