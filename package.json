@@ -1,8 +1,8 @@
 {
   "name": "@xkeshav/<project>",
   "version": "0.0.1",
-  "displayName": "Project Repository",
-  "description": "This is a <project> repository for any new project in github for typescript; including basic files",
+  "displayName": "Project Nam",
+  "description": "This is a <project> repository.",
   "private": false,
   "publisher": "@xkeshav",
   "homepage": "https://github.com/xkeshav/<project>/blob/main/README.md",
