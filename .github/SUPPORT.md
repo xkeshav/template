@@ -44,7 +44,7 @@ See [`contributing.md`][contributing] on how to contribute.
 
 [xy]: https://meta.stackexchange.com/questions/66377/what-is-the-xy-problem/66378#66378
 
-[coc]: https://github.com/xkeshav/.github/blob/main/CODE_OF_CONDUCT.md
+[coc]: https://github.com/xkeshav/template/.github/blob/main/CODE_OF_CONDUCT.md
 
 [chat]: https://github.com/xkeshav/xkeshav/discussions
 
@@ -52,4 +52,4 @@ See [`contributing.md`][contributing] on how to contribute.
 
 [sb]: https://stackblitz.com
 
-[contributing]: https://github.com/xkeshav/.github/blob/main/CONTRIBUTING.md
+[contributing]: https://github.com/xkeshav/template/.github/blob/main/CONTRIBUTING.md
