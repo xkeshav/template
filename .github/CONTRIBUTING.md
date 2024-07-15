@@ -193,4 +193,4 @@ Include Other Notes on how people can contribute
 
 [support]: https://github.com/xkeshav/template/blob/main/.github/SUPPORT.md
 
-[coc]: https://github.com/xkeshav/tempplate/blob/main/.github/CODE_OF_CONDUCT.md
+[coc]: https://github.com/xkeshav/template/blob/main/.github/CODE_OF_CONDUCT.md
