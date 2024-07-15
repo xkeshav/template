@@ -191,6 +191,6 @@ Include Other Notes on how people can contribute
 
 [collective]: https://opencollective.com/recursivezero
 
-[support]: https://github.com/xkeshav/.github/blob/main/SUPPORT.md
+[support]: https://github.com/xkeshav/template/blob/main/.github/SUPPORT.md
 
-[coc]: https://github.com/xkeshav/.github/blob/main/CODE_OF_CONDUCT.md
+[coc]: https://github.com/xkeshav/tempplate/blob/main/.github/CODE_OF_CONDUCT.md
