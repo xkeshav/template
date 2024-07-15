@@ -1,39 +1,61 @@
 # Contributor Covenant Code of Conduct
 
+**Table of Contents:**
+
+- [Contributor Covenant Code of Conduct](#contributor-covenant-code-of-conduct)
+  - [Summary](#summary)
+  - [Our Pledge](#our-pledge)
+  - [Our Standards](#our-standards)
+  - [Enforcement Responsibilities](#enforcement-responsibilities)
+  - [Scope](#scope)
+  - [Enforcement](#enforcement)
+  - [Enforcement Guidelines](#enforcement-guidelines)
+    - [1. Correction](#1-correction)
+    - [2. Warning](#2-warning)
+    - [3. Temporary Ban](#3-temporary-ban)
+    - [4. Permanent Ban](#4-permanent-ban)
+  - [Attribution](#attribution)
+
+**Version**: 1.0.0
+
+## Summary
+
+As contributors and maintainers of this projects, we will respect everyone who contributes by posting issues, updating documentation, submitting pull requests, providing feedback in comments, and any other activities.
+
+Communication regarding the projects through any channel must be constructive and never resort to personal attacks, trolling, public or private harassment, insults, or other unprofessional conduct. Courtesy and respect shall be extended to everyone involved in this project. Our experiences as individuals differs widely, and as such contributors are expected to be respectful of differing viewpoints and ideas.
+
+We expect all contributors to uphold our standards of conduct. If any member of the community violates this code of conduct, the Embedded Artistry team and project maintainers will take action. We reserve the right to remove issues, comments, and PRs that do not comply with our conduct standards. Repeated or significant offenses will result in blocked accounts and disassociation with our projects and the Embedded Artistry community.
+
+If you are subject to or witness unacceptable behavior, or have any other concerns, please email us at [`xkeshav@gmail.com`][contact].
+
 ## Our Pledge
 
-We as members, contributors, and leaders pledge to make participation in our
-community a harassment-free experience for everyone, regardless of age, body
-size, visible or invisible disability, ethnicity, sex characteristics, gender
-identity and expression, level of experience, education, socio-economic status,
-nationality, personal appearance, race, religion, or sexual identity
-and orientation.
+We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
-We pledge to act and interact in ways that contribute to an open, welcoming,
-diverse, inclusive, and healthy community.
+We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
 ## Our Standards
 
 Examples of behavior that contributes to a positive environment for our
 community include:
 
-* Demonstrating empathy and kindness toward other people
-* Being respectful of differing opinions, viewpoints, and experiences
-* Giving and gracefully accepting constructive feedback
-* Accepting responsibility and apologizing to those affected by our mistakes,
+- Demonstrating empathy and kindness toward other people
+- Being respectful of differing opinions, viewpoints, and experiences
+- Giving and gracefully accepting constructive feedback
+- Accepting responsibility and apologizing to those affected by our mistakes,
   and learning from the experience
-* Focusing on what is best not just for us as individuals, but for the
+- Focusing on what is best not just for us as individuals, but for the
   overall community
 
 Examples of unacceptable behavior include:
 
-* The use of sexualized language or imagery, and sexual attention or
+- The use of sexualized language or imagery, and sexual attention or
   advances of any kind
-* Trolling, insulting or derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or email
+- Trolling, insulting or derogatory comments, and personal or political attacks
+- Public or private harassment
+- Publishing others' private information, such as a physical or email
   address, without their explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
+- Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
 ## Enforcement Responsibilities
@@ -126,3 +148,5 @@ enforcement ladder](https://github.com/mozilla/diversity).
 For answers to common questions about this code of conduct, see the FAQ at
 <https://www.contributor-covenant.org/faq>. Translations are available at
 <https://www.contributor-covenant.org/translations>.
+
+[contact]: mailto:xkeshav@gmail.com
