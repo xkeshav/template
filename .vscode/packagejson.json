@@ -51,12 +51,12 @@
 		"\t\t\t\"not dead\",",
 		"\t\t\t\"not op_mini all\"",
 		"\t\t],",
-	"\t\t\"development\": [",
+		"\t\t\"development\": [",
 		"\t\t\t\"last 1 chrome version\",",
 		"\t\t\t\"last 1 firefox version\",",
 		"\t\t\t\"last 1 safari version\"",
 		"\t\t]",
-	"\t}",
+	"\t}"
 		]
 	}
 }

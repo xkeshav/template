@@ -1,0 +1,22 @@
+{
+  "console-obj": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "cl",
+    "body": [
+      "console.log({ $0 });"
+    ],
+    "description": "destructured console log"
+  },
+  "log-clip": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "log-clip",
+    "body": ["//${3: ${CLIPBOARD/(.*)\\./$2/g}}", "console.log({$CLIPBOARD})"],
+    "description": "clip to console"
+  },
+  "createDocumentFragment": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "cdf",
+    "body": "const ${1:varName} = document.createDocumentFragment();${0}",
+    "description": "Creates an element using document.createDoumentFragment"
+  }
+}

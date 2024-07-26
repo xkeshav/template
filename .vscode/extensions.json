@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "alefragnani.project-manager",
+    "esbenp.prettier-vscode",
+    "oderwat.indent-rainbow",
+    "davidanson.vscode-markdownlint",
+    "mkxml.vscode-filesize",
+    "christian-kohler.path-intellisense",
+    "artdiniz.quitcontrol-vscode",
+    "enkia.tokyo-night",
+    "dbaeumer.vscode-eslint",
+    "johnpapa.vscode-peacock",
+    "aaron-bond.better-comments",
+    "Heron.firefox-devtools-theme",
+    "GitHub.github-vscode-theme",
+    "marp-team.marp-vscode",
+    "xkeshav.css-color-collector"
+  ]
+}

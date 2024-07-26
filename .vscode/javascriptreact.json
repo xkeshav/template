@@ -1,0 +1,26 @@
+{
+  "React: useState": {
+    "scope": "typescriptreact, typescript, javascript, javascriptreact",
+    "prefix": "rus",
+    "body": [
+      "const [${1:state}, set${1/(.*)/${1:/capitalize}/}] = useState(${2:null});",
+      "$3"
+    ],
+    "description": "React Hook: useState"
+  },
+  "React: Functional Component": {
+    "scope": "typescriptreact, typescript, javascript, javascriptreact",
+    "prefix": "rfc",
+    "body": [
+      "import { Fragment } from 'react';\n",
+      "export type ${2:${1}Props} = { }\n",
+      "export const ${1:${TM_FILENAME_BASE}} = (props: React.FC<${2}>) => {",
+      "\tconsole.log({ props }); $BLOCK_COMMENT_START added to suppress lint error $BLOCK_COMMENT_END",
+      "\treturn (",
+      "\t\t<Fragment>$0</Fragment>",
+      "\t);",
+      "}"
+    ],
+    "description": "React Functional Component"
+  }
+}

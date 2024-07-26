@@ -1,0 +1,35 @@
+{
+  "dictionaryDefinitions": [
+    {
+      "name": "projectTerms",
+      "path": "./dictionaries/project-words.txt"
+    },
+    {
+      "name": "teamMember",
+      "path": "./dictionaries/team-member.txt"
+    }
+  ],
+  "dictionaries": [
+    "projectTerms",
+    "teamMember"
+  ],
+  "languageSettings": [
+    {
+      "languageId": "*",
+      "dictionaries": [
+        "projectTerms"
+      ]
+    },
+    {
+      "languageId": "json, md",
+      "dictionaries": [
+        "teamMember"
+      ]
+    }
+  ],
+  "enableFiletypes": [
+    "astro",
+    "jsx",
+    "tsx"
+  ]
+}
