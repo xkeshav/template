@@ -15,19 +15,19 @@
     "type": "git",
     "url": "https://github.com/xkeshav/project.git"
   },
-  "keywords": [
-    "project",
-    "github",
-    "template"
-  ],
   "author": {
     "name": "Keshav Mohta",
     "email": "xkeshav@gmail.com"
   },
   "contributors": [],
+  "keywords": [
+    "project",
+    "github",
+    "template"
+  ],
   "main": "src/index.js",
   "scripts": {
-    "start": "tsc"
+    "start": "node src/index.js"
   },
   "dependencies": { 
     "@xkeshav/day": "latest",
