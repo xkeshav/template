@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        This is text that will show up in the template!
+        introduce yourself!
   - type: textarea
     id: improvements
     attributes:
@@ -21,8 +21,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Markdown header
-        And some more markdown
+        ## How to connect
+        here are few connection way 
   - type: input
     id: has-id
     attributes:
