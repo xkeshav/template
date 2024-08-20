@@ -6,7 +6,7 @@ body:
       value: |
         write a good title of idea 
   - type: textarea
-    id: Idea description
+    id: idea
     attributes:
       label: Idea highlight
       description: "What are the idea we could make to this project?"
