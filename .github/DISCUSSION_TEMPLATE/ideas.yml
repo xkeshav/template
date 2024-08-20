@@ -1,0 +1,48 @@
+title: "[Idea] "
+labels: ["Share your Idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        write a good title of idea 
+  - type: textarea
+    id: Idea description
+    attributes:
+      label: Idea highlight
+      description: "What are the idea we could make to this project?"
+      value: |
+        1.
+        ...
+      render: bash
+    validations:
+      required: true
+  - type: input
+    id: has-id
+    attributes:
+      label: Suggestions
+      description: A description about suggestions to help you
+    validations:
+      required: true
+  - type: dropdown
+    id: improvement
+    attributes:
+      label: Which area of this project could be most improved?
+      options:
+        - Documentation
+        - Pull request review time
+        - Bug fix time
+        - Release cadence
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Check that box!
+      options:
+        - label: This one!
+          required: true
+        - label: I won't stop you if you check this one, too
+  - type: markdown
+    attributes:
+      value: |
+        ### Great
+        _we will contact you_ *soon*
