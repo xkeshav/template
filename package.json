@@ -20,6 +20,10 @@
     "email": "xkeshav@gmail.com"
   },
   "contributors": [],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/xkeshav"
+  },
   "keywords": [
     "project",
     "github",

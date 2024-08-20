@@ -1,20 +1,17 @@
 # Template Repository
 
-This is [readme file][readme] of template repository; based on typescript and node.
+This is [readme file][readme] of template repository.
 
 ## Pre-requisite
 
 - Node 18+
-- Typescript v 5.0+
-- A Browser
-- an IDE ( VS Code Preferred)
 
 ## How to start
 
-- Navigate to the repo from terminal
+- clone/fork the repo
 - Install dependencies using below command
 
-```bash
+```sh
 > npm install
 ```
 
@@ -28,5 +25,6 @@ then
 
 Please update the readme as per your project.
 
-<!--  -->
+<!-- References -->
+
 [readme]: https://github.com/xkeshav/project/blob/main/README.md
