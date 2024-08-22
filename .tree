@@ -1,4 +1,5 @@
 .
+├── .editorconfig
 ├── .github
 │   ├── CODEOWNERS
 │   ├── CODE_OF_CONDUCT.md
@@ -17,6 +18,7 @@
 │   ├── SECURITY.md
 │   └── SUPPORT.md
 ├── .gitignore
+├── .tree
 ├── .vscode
 │   ├── cspell.json
 │   ├── dictionaries
@@ -38,6 +40,6 @@
 ├── src
 │   └── index.js
 ├── template.code-workspace
-└── tree.txt
+└── tree
 
-8 directories, 34 files
+8 directories, 35 files

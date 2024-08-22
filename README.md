@@ -38,6 +38,7 @@ Below are the complete folder structure of this repo
 
 ```bash
 .
+├── .editorconfig
 ├── .github
 │   ├── CODEOWNERS
 │   ├── CODE_OF_CONDUCT.md
@@ -56,6 +57,7 @@ Below are the complete folder structure of this repo
 │   ├── SECURITY.md
 │   └── SUPPORT.md
 ├── .gitignore
+├── .tree
 ├── .vscode
 │   ├── cspell.json
 │   ├── dictionaries
@@ -77,10 +79,10 @@ Below are the complete folder structure of this repo
 ├── src
 │   └── index.js
 ├── template.code-workspace
-├── .editorconfig
-└── .tree
+└── tree
 
-8 directories, 34 files
+8 directories, 35 files
+
 
 ```
 
