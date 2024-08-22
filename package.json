@@ -1,6 +1,6 @@
 {
   "name": "@xkeshav/template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "displayName": "template",
   "description": "This is a repository which have all required files to collaborate and open source your repo on GitHub.",
@@ -19,12 +19,7 @@
     "name": "Keshav Mohta",
     "email": "xkeshav@gmail.com"
   },
-  "contributors": [
-    {
-      "name": "Malhar Bhuptani",
-      "email": "malharbhuptani@gnail.com"
-    }
-  ],
+  "contributors": [],
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/xkeshav"
