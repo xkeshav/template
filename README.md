@@ -91,4 +91,4 @@ Below are the complete folder structure of this repo
 
 <!-- References -->
 
-[readme]: https://github.com/xkeshav/project/blob/main/README.md
+[readme]: https://github.com/xkeshav/template/blob/main/README.md
