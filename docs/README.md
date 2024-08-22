@@ -10,27 +10,6 @@ Place: GitTogether @Microsoft
 
 <!-- markdownlint-disable-file MD001 MD041 MD025 MD022 MD033-->
 
-<style>
-footer {
- color: mediumseagreen;
- font-size: 0.75rem;
- font-style: italic;
- position: fixed;
- bottom: 0;
- right: 0;
-}
-
-footer::first-letter {
-  color: #334455;
-}
-</style>
-
-<style scoped>
-section  {
-   color: grey;
-}
-</style>
-
 <!-- _backgroundColor: whitesmoke -->
 <!--  _paginate: skip -->
 <!-- _class: lead  -->
@@ -122,7 +101,7 @@ _They are essential for promoting transparency, good practices, and collaboratio
 
 ## Folder Tree
 
-![Folder Tree](./public/assets/images/health-files.png)
+![Folder Tree](../public/assets/images/health-files.png)
 
 ---
 
@@ -239,6 +218,6 @@ body:
 
 # Thanks
 
-![bg right 70%](./public/assets/images/portfolio_qr.png)
+![bg right 70%](../public/assets/images/portfolio_qr.png)
 
 ## Q & A ?
