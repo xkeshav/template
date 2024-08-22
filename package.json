@@ -1,25 +1,30 @@
 {
-  "name": "@xkeshav/project",
+  "name": "@xkeshav/template",
   "version": "0.0.1",
   "private": false,
-  "displayName": "ProjectX",
-  "description": "This is about project repository.",
+  "displayName": "template",
+  "description": "This is a repository which have all required files to collaborate and open source your repo on GitHub.",
   "publisher": "@xkeshav",
-  "homepage": "https://github.com/xkeshav/project/blob/main/README.md",
+  "homepage": "https://github.com/xkeshav/template/blob/main/README.md",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xkeshav/project/issues",
+    "url": "https://github.com/xkeshav/template/issues",
     "email": "xkeshav@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xkeshav/project.git"
+    "url": "https://github.com/xkeshav/template.git"
   },
   "author": {
     "name": "Keshav Mohta",
     "email": "xkeshav@gmail.com"
   },
-  "contributors": [],
+  "contributors": [
+    {
+      "name": "Malhar Bhuptani",
+      "email": "malharbhuptani@gnail.com"
+    }
+  ],
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/xkeshav"
@@ -33,14 +38,14 @@
   "scripts": {
     "start": "node src/index.js"
   },
-  "dependencies": { 
+  "dependencies": {
     "@xkeshav/day": "latest",
     "@xkeshav/watch": "latest"
   },
   "timestamp": {
     "createdOn": "Today"
   },
-  "devDependencies":{ 
+  "devDependencies": {
     "typescript": "latest"
   },
   "peerDependencies": {},
