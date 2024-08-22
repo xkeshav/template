@@ -15,7 +15,9 @@ jobs:
       - name: Lint Markdown files
         uses: DavidAnson/markdownlint-cli2-action@v16
         with:
+          config: '/config/changelog.yml'
           globs: |
             **/*.md
-            !CODE_OF_CONDUCT.md
-            !SUPPORT.md
+            !.github/CODE_OF_CONDUCT.md
+            !.github/SUPPORT.md
+            !.github/CONTRIBUTING.md
