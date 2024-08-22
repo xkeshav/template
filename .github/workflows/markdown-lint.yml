@@ -14,4 +14,4 @@ jobs:
 
       - name: Lint Markdown files
         run: |
-          npx markdownlint-cli '**/*.md' -c markdownlint.json -i '.github/CONTRIBUTING.md' -i '.github/CODE_OF_CONDUCT.md'
+          npx markdownlint-cli '**/*.md' -c './.vscode/markdownlint.json' -i '.github/CONTRIBUTING.md' -i '.github/CODE_OF_CONDUCT.md' -i 'CHANGELOG.md'
