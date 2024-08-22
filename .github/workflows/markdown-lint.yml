@@ -13,11 +13,5 @@ jobs:
           node-version: 20
 
       - name: Lint Markdown files
-        uses: DavidAnson/markdownlint-cli2-action@v16
-        with:
-          config: '/.markdownlint.json'
-          globs: |
-            **/*.md
-            !.github/CODE_OF_CONDUCT.md
-            !.github/SUPPORT.md
-            !.github/CONTRIBUTING.md
+        run: |
+          npx markdownlint-cli '**/*.md' -c markdownlint.json -i '.github/CONTRIBUTING.md' -i '.github/CODE_OF_CONDUCT.md'
