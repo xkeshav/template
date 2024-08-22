@@ -26,7 +26,7 @@ Place: GitTogether @Microsoft
 
 ## SDE III / _J.P. Morgan Chase & Co._
 
-> [xkeshav.com](https://www.xkeshav.com)
+> [xkeshav.com][blog]
 
 > find me on `@xkeshav` on social media
 
@@ -47,14 +47,9 @@ Place: GitTogether @Microsoft
 # Health Files ?
 
 <!-- _backgroundColor: red -->
-<style scoped>
-p, section  {
-   color: yellow;
-}
-a { color: white; }
-</style>
+<!-- _color: yellow -->
 
-> Default community health files are a set of predefined files that provide guidance and templates for maintaining a healthy and collaborative open source project."
+"Default community health files are a set of predefined files that provide guidance and templates for maintaining a healthy and collaborative open source project."
 
 ~ <https://docs.github.com>
 
@@ -119,13 +114,11 @@ _They are essential for promoting transparency, good practices, and collaboratio
 
 # Role of _package.json_ file
 
-#### package.json
-
-```json
+```json name="package.json"
 {
   "name": "@xkeshav/template",
   "version": "0.0.0",
-  "license:":"MIT"
+  "license:": "MIT",
   "homepage": "https://github.com/xkeshav/template/blob/main/README.md",
   "bugs": {
     "url": "https://github.com/xkeshav/template/issues",
@@ -144,14 +137,14 @@ _They are essential for promoting transparency, good practices, and collaboratio
 
 ---
 
-# **Markdown** syntax
+# [**Markdown** syntax][markdown]
 
 - Preview on browser and auto generated TOC
 - link alias `[link][alias]` and later `[alias]: https://full/path/of/web/page`
 - supported color code `#11ff22`
 - emoji support `:shipit:`
 - image insertion with full/relative path `![image alt](image/path)`
-- Syntax highlighting using ```
+- Syntax highlighting using \`\`\`language such as `ts`
 - Table syntax
 
 ```md
@@ -165,7 +158,7 @@ _They are essential for promoting transparency, good practices, and collaboratio
 
 ---
 
-# **YAML** Syntax
+# [**YAML** Syntax][yaml]
 
 - Space separated
 - different meta data for markdown/input/dropdown
@@ -209,7 +202,7 @@ body:
 - Display where these files are visible and linked.
 - YML and Markdown syntax
 
-[References](https://opensource.guide/starting-a-project/)
+[Open Source Guide][open-source]
 
 ---
 
@@ -221,3 +214,10 @@ body:
 ![bg right 70%](../public/assets/images/portfolio_qr.png)
 
 ## Q & A ?
+
+<!-- Reference -->
+
+[blog]: https://www.xkeshav.com
+[open-source]: https://opensource.guide/starting-a-project/
+[markdown]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+[yaml]: https://learnxinyminutes.com/docs/yaml/
