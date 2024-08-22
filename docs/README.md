@@ -27,7 +27,6 @@ Place: GitTogether @Microsoft
 ## SDE III / _J.P. Morgan Chase & Co._
 
 > [xkeshav.com][blog]
-
 > find me on `@xkeshav` on social media
 
 ---
@@ -49,7 +48,8 @@ Place: GitTogether @Microsoft
 <!-- _backgroundColor: red -->
 <!-- _color: yellow -->
 
-"Default community health files are a set of predefined files that provide guidance and templates for maintaining a healthy and collaborative open source project."
+"Default community health files are a set of predefined files that provide guidance
+and templates for maintaining a healthy and collaborative open source project."
 
 ~ <https://docs.github.com>
 
@@ -60,10 +60,10 @@ _They are essential for promoting transparency, good practices, and collaboratio
 # **Where** to keep these files?
 
 - inside `.github/` folder
-- on root of the directory
-- Inside `docs/` folder
   - `.github/ISSUE_TEMPLATE/`
   - `.github/DISCUSSION_TEMPLATE/`
+- on root of the directory
+- Inside `docs/` folder
 
 ---
 

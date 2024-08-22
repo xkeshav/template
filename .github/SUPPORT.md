@@ -3,10 +3,8 @@
 This article explains where to get help with remark.
 Please read through the following guidelines.
 
-> 👉 **Note**: before participating in our community, please read our
-> [code of conduct][coc].
-> By interacting with this repository, organization, or community you agree to
-> abide by its terms.
+> [!NOTE]: before participating in our community, please read our [code of conduct][coc].
+> By interacting with this repository, organization, or community you agree to abide by its terms.
 
 ## Asking quality questions
 
@@ -17,7 +15,8 @@ Help us help you!
 Spend time framing questions and add links and resources.  
 Spending the extra time up front can help save everyone time in the long run.
 
-Here are some tips:
+> ![TIPS]
+> Here are some tips:
 
 * [Talk to us][chat]!
 * Don’t fall for the [XY problem][xy]

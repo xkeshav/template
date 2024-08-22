@@ -86,9 +86,8 @@ Below are the complete folder structure of this repo
 
 ```
 
-## Note
-
-Please update the readme as per your project.
+> [!Note]
+> Please update the readme as per your project.
 
 <!-- References -->
 
