@@ -9,7 +9,6 @@
     "editor.suggestSelection": "first",
     "files.exclude": {
       ".git/**": true,
-      "**/.git": false,
       "**/node_modules/": true
     },
     "editor.bracketPairColorization.enabled": true,
@@ -111,7 +110,7 @@
     "workbench.editorAssociations": {
       "*.log": "default"
     },
-    "editor.minimap.enabled": false,
+    "editor.minimap.enabled": true,
     "workbench.colorTheme": "Tokyo Night Storm",
     "editor.fontSize": 14,
     "[javascriptreact]": {},
@@ -195,6 +194,9 @@
     "workbench.editor.pinnedTabSizing": "compact",
     "prettier.trailingComma": "none",
     "editor.inlayHints.enabled": "offUnlessPressed",
-    "workbench.layoutControl.enabled": false
+    "workbench.layoutControl.enabled": false,
+    "[markdown]": {
+      "diffEditor.ignoreTrimWhitespace": false
+    }
   }
 }

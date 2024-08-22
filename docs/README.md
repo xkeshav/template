@@ -6,13 +6,17 @@ paginate: true
 author: Keshav Mohta
 Date: Sat, Aug 24, 2024
 Place: GitTogether @Microsoft
+style: |
+  section {
+    background-color: black;
+    color: white;
+  }
 ---
 
 <!-- markdownlint-disable-file MD001 MD041 MD025 MD022 MD033-->
 
 <!-- _backgroundColor: whitesmoke -->
 <!--  _paginate: skip -->
-<!-- _class: lead  -->
 
 # GitHub Health Files
 
@@ -45,8 +49,8 @@ Place: GitTogether @Microsoft
 
 # Health Files ?
 
-<!-- _backgroundColor: red -->
-<!-- _color: yellow -->
+<!-- _backgroundColor: white -->
+<!-- _color: black -->
 
 "Default community health files are a set of predefined files that provide guidance
 and templates for maintaining a healthy and collaborative open source project."
@@ -94,7 +98,7 @@ _They are essential for promoting transparency, good practices, and collaboratio
 
 ---
 
-## Folder Tree
+## Folder Structure
 
 ![Folder Tree](../public/assets/images/health-files.png)
 
