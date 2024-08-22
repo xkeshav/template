@@ -38,7 +38,8 @@
     "@xkeshav/watch": "latest"
   },
   "timestamp": {
-    "createdOn": "Today"
+    "createdOn": "14 Feb 2024",
+    "updatedOn": "22 Aug 2024"
   },
   "devDependencies": {
     "typescript": "latest"
