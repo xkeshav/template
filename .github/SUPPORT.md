@@ -19,10 +19,6 @@ Spending the extra time up front can help save everyone time in the long run.
 > [!Tip]
 > Here are some tips
 
-:::warning
-This is a warning
-:::
-
 * [Talk to us][chat]!
 * Don’t fall for the [XY problem][xy]
 * Search to find out if a similar question has been asked
