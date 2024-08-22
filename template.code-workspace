@@ -5,28 +5,196 @@
     }
   ],
   "settings": {
-    "window.zoomLevel": 1.15,
+    "window.zoomLevel": 0.5,
+    "editor.suggestSelection": "first",
+    "files.exclude": {
+      ".git/**": true,
+      "**/.git": false,
+      "**/node_modules/": true
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[typescript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.codeActionsOnSave": {
+        "source.fixAll": "always",
+        "source.organizeImports": "explicit"
+      }
+    },
+    "[typescriptreact]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.codeActionsOnSave": {
+        "source.fixAll": "always",
+        "source.organizeImports": "explicit"
+      }
+    },
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "eslint.validate": [
+      "mdx",
+      "markdown",
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact",
+      "astro"
+    ],
+    "eslint.options": {
+      "extensions": [
+        ".js",
+        ".jsx",
+        ".md",
+        ".mdx",
+        ".ts",
+        ".tsx",
+        ".astro"
+      ]
+    },
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.comments.insertSpace": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "typescript.inlayHints.parameterTypes.enabled": true,
+    "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "zenMode.centerLayout": false,
+    "prettier.printWidth": 120,
+    "workbench.list.multiSelectModifier": "alt",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.linkedEditing": true,
+    "editor.multiCursorModifier": "alt",
+    "scss.lint.emptyRules": "ignore",
+    "editor.formatOnSave": true,
+    "typescript.preferences.quoteStyle": "double",
+    "javascript.preferences.quoteStyle": "double",
+    "prettier.singleQuote": false,
+    "explorer.confirmDelete": false,
+    "editor.snippetSuggestions": "top",
+    "explorer.confirmDragAndDrop": false,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.iconTheme": "file-icons",
+    "git.confirmSync": false,
+    "workbench.startupEditor": "none",
+    "window.autoDetectColorScheme": true,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+      "*.ts": "${capture}.js",
+      "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+      "*.jsx": "${capture}.js",
+      "*.tsx": "${capture}.ts",
+      "tsconfig.json": "tsconfig.*.json, jsconfig.json",
+      "package.json": "package-lock.json",
+      ".gitignore": ".prettier*, .editorconfig, .eslint*, .npm*, .nojekyll",
+      "readme.md": "*.md"
+    },
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "explorer.excludeGitIgnore": false,
+    "git.branchPrefix": "feature/",
+    "git.branchRandomName.enable": true,
+    "git.branchRandomName.dictionary": [
+      "animals",
+      "numbers"
+    ],
+    "search.showLineNumbers": true,
+    "workbench.editorAssociations": {
+      "*.log": "default"
+    },
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Tokyo Night Storm",
+    "editor.fontSize": 14,
+    "[javascriptreact]": {},
+    "editor.accessibilitySupport": "off",
+    "editor.minimap.size": "fit",
+    "cSpell.customDictionaries": {
+      "myDictionary": {
+        "name": "myDictionary",
+        "path": "~/myDictionary.txt",
+        "scope": "user",
+        "addWords": true
+      },
+      "custom": true
+    },
+    "debug.javascript.codelens.npmScripts": "never",
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "js/ts.implicitProjectConfig.checkJs": true,
+    "editor.detectIndentation": false,
+    "markdownlint.config": {
+      "MD007": false
+    },
     "workbench.colorCustomizations": {
-      "activityBar.activeBackground": "#2464a8",
-      "activityBar.background": "#2464a8",
+      "activityBar.activeBackground": "#2f7c47",
+      "activityBar.background": "#2f7c47",
       "activityBar.foreground": "#e7e7e7",
       "activityBar.inactiveForeground": "#e7e7e799",
-      "activityBarBadge.background": "#e37cae",
-      "activityBarBadge.foreground": "#15202b",
+      "activityBarBadge.background": "#422c74",
+      "activityBarBadge.foreground": "#e7e7e7",
       "commandCenter.border": "#e7e7e799",
-      "sash.hoverBorder": "#2464a8",
-      "statusBar.background": "#1b4b7e",
+      "sash.hoverBorder": "#2f7c47",
+      "statusBar.background": "#215732",
       "statusBar.foreground": "#e7e7e7",
-      "statusBarItem.hoverBackground": "#2464a8",
-      "statusBarItem.remoteBackground": "#1b4b7e",
+      "statusBarItem.hoverBackground": "#2f7c47",
+      "statusBarItem.remoteBackground": "#215732",
       "statusBarItem.remoteForeground": "#e7e7e7",
-      "titleBar.activeBackground": "#1b4b7e",
+      "titleBar.activeBackground": "#215732",
       "titleBar.activeForeground": "#e7e7e7",
-      "titleBar.inactiveBackground": "#1b4b7e99",
-      "titleBar.inactiveForeground": "#e7e7e799"
+      "titleBar.inactiveBackground": "#21573299",
+      "titleBar.inactiveForeground": "#e7e7e799",
+      "sideBar.border": "#2f7c47"
     },
-    "peacock.color": "#1b4b7e",
+    "peacock.color": "#215732",
+    "cSpell.words": [],
+    "css.lint.unknownAtRules": "ignore",
+    "files.autoSave": "onFocusChange",
+    "editor.dragAndDrop": false,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.formatOnSaveMode": "file",
+    "files.eol": "\r\n",
+    "files.readonlyExclude": {
+      "dist/**": true
+    },
+    "window.title": "${rootNameShort}${separator}${activeEditorShort}${separator}${activeFolderMedium}",
+    "explorer.fileNesting.expand": false,
+    "search.exclude": {
+      "dist/**": true,
+      "package-lock.json": true
+    },
+    "peacock.affectSideBarBorder": true,
+    "prettier.quoteProps": "consistent",
+    "prettier.documentSelectors": [
+      "**/*.astro"
+    ],
+    "[astro]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.codeActionsOnSave": {
+        "source.fixAll": "always",
+        "source.organizeImports": "explicit"
+      }
+    },
+    "git.branchProtection": [
+      "main",
+      "develop"
+    ],
+    "git.enableCommitSigning": false,
     "git.postCommitCommand": "push",
-    "git.rememberPostCommitCommand": true
+    "workbench.tree.enableStickyScroll": false,
+    "editor.stickyScroll.enabled": true,
+    "workbench.editor.pinnedTabSizing": "compact",
+    "prettier.trailingComma": "none",
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "workbench.layoutControl.enabled": false
   }
 }
