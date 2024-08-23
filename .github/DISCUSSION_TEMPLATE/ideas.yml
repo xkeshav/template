@@ -6,7 +6,7 @@ body:
     attributes:
       label: Idea highlight
       description: "What are the idea we could make to this project?"
-      value: 
+      value:
       render: bash
     validations:
       required: true
@@ -22,7 +22,7 @@ body:
         - Release cadence
     validations:
       required: true
-  
+
   - type: input
     id: id
     attributes:
@@ -30,7 +30,7 @@ body:
       description: your contact number
     validations:
       required: false
-  
+
   - type: checkboxes
     attributes:
       label: Check that box!
@@ -38,7 +38,7 @@ body:
         - label: Read Code of conduct!
           required: true
         - label: I won't stop you if you check this one, too
-  
+
   - type: markdown
     attributes:
       value: |

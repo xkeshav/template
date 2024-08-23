@@ -8,12 +8,11 @@ Write something nice and instructive as an intro. Talk about what kind of contri
 
 ## Summary
 
-This document describes our development process. Following these guidelines shows that you respect the time and effort of the developers managing this project. In return, you will be shown respect in addressing your issue, reviewing your changes, and incorporating your contributions.
+> [!Note]
+> Before participating in our community, please read our [code of conduct][coc].
+> By interacting with this repository, organization, or community you agree to abide by its terms.
 
-> 👉 **Note**: before participating in our community, please read our
-> [code of conduct][coc].
-> By interacting with this repository, organization, or community you agree to
-> abide by its terms.
+This document describes our development process. Following these guidelines shows that you respect the time and effort of the developers managing this project. In return, you will be shown respect in addressing your issue, reviewing your changes, and incorporating your contributions.
 
 ## Contributions
 
@@ -39,19 +38,22 @@ It’s probably a good idea to first post a question or open an issue to report 
 
 ## Submitting an issue
 
-* The issue tracker is for issues. Use discussions for support
-* Search the issue tracker (including closed issues) before opening a new issue
-* Ensure you’re using the latest version of our packages
-* Use a clear and descriptive title
-* Include as much information as possible: steps to reproduce the issue, error message, version, operating system, etcetera
-* The more time you put into an issue, the better we will be able to help you
-* The best issue report is a  proper reproduction step to prove it
+- The issue tracker is for issues. Use discussions for support
+- Search the issue tracker (including closed issues) before opening a new issue
+- Ensure you’re using the latest version of our packages
+- Use a clear and descriptive title
+- Include as much information as possible: steps to reproduce the issue, error message, version, operating system, etcetera
+- The more time you put into an issue, the better we will be able to help you
+- The best issue report is a proper reproduction step to prove it
 
 ## Development Process
 
 What is your development process?
 
+> [!Tip]
 > This project follows the basic git glow
+
+Check and follow [README][readme] file and run on your local.
 
 Talk about branches people should work on. Specifically, where is the starting point? `main`, `feature`, `hotfix` `task` etc.
 
@@ -81,19 +83,19 @@ use code formatter in your IDE, add prettier and some other useful extension in 
 
 below are the guidelines for your commit messages.
 
-* add clear message and with 50 lines
-* prefix feature / issue number from issue page
+- add clear message and with 50 lines
+- prefix feature / issue number from issue page
 
 ### Submitting a pull request
 
-* Run `npm test` locally to build, format, and test your changes
-* Non-trivial changes are often best discussed in an issue first, to prevent you from doing unnecessary work
-* For ambitious tasks, you should try to get your work in front of the community for feedback as soon as possible
-* New features should be accompanied by tests and documentation
-* Don’t include unrelated changes
-* Test before submitting code by running `npm test`
-* Write a convincing description of why we should land your pull request: it’s your job to convince us  
-  
+- Run `npm test` locally to build, format, and test your changes
+- Non-trivial changes are often best discussed in an issue first, to prevent you from doing unnecessary work
+- For ambitious tasks, you should try to get your work in front of the community for feedback as soon as possible
+- New features should be accompanied by tests and documentation
+- Don’t include unrelated changes
+- Test before submitting code by running `npm test`
+- Write a convincing description of why we should land your pull request: it’s your job to convince us
+
 ## Pull Request Process
 
 Add notes for pushing your branch:
@@ -117,9 +119,10 @@ Once you've committed and pushed all of your changes to GitHub, go to the page f
 
 Who reviews it? Who needs to sign off before it’s accepted? When should a contributor expect to hear from you? How can contributors get commit access, if at all?
 
-> The core team looks at Pull Requests on a regular basis in a weekly triage meeting that we hold in a public Google Hangout. The hangout is announced in the weekly status updates that are sent to the puppet-dev list. Notes are posted to the Puppet Community community-triage repo and include a link to a YouTube recording of the hangout. After feedback has been given we expect responses within two weeks. After two weeks we may close the pull request if it isn't showing any activity.
-
-> Except for critical, urgent or very small fixes, we try to leave pull requests open for most of the day or overnight if something comes in late in the day, so that multiple people have the chance to review/comment.  Anyone who reviews a pull request should leave a note to let others know that someone has looked at it.  For larger commits, we like to have a +1 from someone else on the core team and/or from other contributor(s).  Please note if you reviewed the code or tested locally -- a +1 by itself will typically be interpreted as your thinking its a good idea, but not having reviewed in detail.
+- The core team looks at Pull Requests on a regular basis in a weekly triage meeting that we hold in a public domain. The is announced in the weekly status updates.
+- Our Reviewer will provide constructive Feedback by writing Review Comments (RC). Pull Requester have to address all RC on time.
+- After feedback has been given we expect responses within two weeks. After two weeks we may close the pull request if it isn't showing any activity.
+- Except for critical, urgent or very small fixes, we try to leave pull requests open for most of the day or overnight if something comes in late in the day, so that multiple people have the chance to review/comment. Anyone who reviews a pull request should leave a note to let others know that someone has looked at it. For larger commits, we like to have a +1 from someone else on the core team and/or from other contributor(s). Please note if you reviewed the code or tested locally -- a +1 by itself will typically be interpreted as your thinking its a good idea, but not having reviewed in detail.
 
 Perhaps also provide the steps your team will use for checking a PR. Or discuss the steps run on your CI server if you have one. This will help developers understand how to investigate any failures or test the process on their own.
 
@@ -134,7 +137,6 @@ To update your forked repository, follow these steps:
 ### Fetch upstream master and merge with your repo's main branch
 
 ```sh
-
 git fetch upstream
 git checkout main
 git merge upstream/main
@@ -152,9 +154,7 @@ If too much code has changed for git to automatically apply your branches change
 Once your new branch has no conflicts and works correctly, you can override your old branch using this command:
 
 ```sh
-
 git push origin feature/branch-name
-
 ```
 
 Note that this will overwrite the old branch on the server, so make sure you are happy with your changes first!
@@ -165,32 +165,34 @@ Do you have a mailing list, Google group, slack channel, IRC channel? Link to th
 
 Include Other Notes on how people can contribute
 
-* You can help us answer questions our users have here:
-* You can help build and design our website here:
-* You can help write blog posts about the project by:
-* You can help with newsletters and internal communications by:
+- You can help us answer questions our users have here:
+- You can help build and design our website here:
+- You can help write blog posts about the project by:
+- You can help with newsletters and internal communications by:
 
-* Create an example of the project in real world by building something or showing what others have built.
-* Write about other people’s projects based on this project. Show how it’s used in daily life. Take screenshots and make videos!
+- Create an example of the project in real world by building something or showing what others have built.
+- Write about other people’s projects based on this project. Show how it’s used in daily life. Take screenshots and make videos!
 
 ## Resources
 
-* [How to contribute to open source](https://opensource.guide/how-to-contribute/)
-* [Making your first contribution](https://medium.com/@vadimdemedes/making-your-first-contribution-de6576ddb190)
-* [Using pull requests](https://help.github.com/articles/about-pull-requests/)
-* [GitHub help](https://help.github.com)
-* [git commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
+- [How to contribute to open source](https://opensource.guide/how-to-contribute/)
+- [Making your first contribution](https://medium.com/@vadimdemedes/making-your-first-contribution-de6576ddb190)
+- [Using pull requests](https://help.github.com/articles/about-pull-requests/)
+- [GitHub help](https://help.github.com)
+- [git commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 
 ## License
+
+MIT
+
+## Author
 
 © [Keshav Mohta][author]
 
 <!-- Definitions -->
 
-[author]: https://xkeshav.com  
-
-[collective]: https://opencollective.com/recursivezero
-
+[readme]: https://github.com/xkeshav/template/blob/main/README.md
+[author]: https://xkeshav.com
+[collective]: https://opencollective.com/xkeshav
 [support]: https://github.com/xkeshav/template/blob/main/.github/SUPPORT.md
-
 [coc]: https://github.com/xkeshav/template/blob/main/.github/CODE_OF_CONDUCT.md

@@ -22,12 +22,11 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 - [ ] Test A
 - [ ] Test B
 
-**Test Configuration**:  
+**Test Configuration**:
 
-- Firmware version:
-- Hardware:
+- Browser:
+- Device:
 - Toolchain:
-- SDK:
 
 ## Checklist
 
