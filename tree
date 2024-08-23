@@ -1,38 +1,4 @@
-# Template Repository
-
-[!License][https://badgen.net/github/license/xkeshav/template]
-
-This is a Public template repository which contains
-
-- community health files under mostly under `.github`
-- _package.json_ boilerplate
-- github action under `.github/workflows` for markdown file validity
-- `.vscode` folder which have
-  - code snippets
-  - user / workspace settings file
-  - recommended extensions
-  - project dictionaries
-
-## Pre-requisite
-
-- Node 18+
-- VS Code IDE
-
-## How to use this Template repository
-
-- open this repository[repo] in github
-- click on `use this template` tab; near _star_ tab
-- make changes in _package.json_ ; replace _template_ with your project name.
-- make changes in the health files under _.github_ folder; change contact email address and repository URL wherever mentioned.
-
-## Folder Tree
-
-<details>
-<summary>
-  <mark>Repository Folder Structure</mark>
-</summary>
-
-```bash
+.
 ├── .editorconfig
 ├── .github
 │   ├── CODEOWNERS
@@ -54,6 +20,7 @@ This is a Public template repository which contains
 │   └── workflows
 │       └── markdown-lint.yml
 ├── .gitignore
+├── .tree
 ├── .vscode
 │   ├── cspell.json
 │   ├── dictionaries
@@ -79,21 +46,5 @@ This is a Public template repository which contains
 │   └── index.js
 ├── template.code-workspace
 └── tree
+
 12 directories, 36 files
-
-```
-
-</details>
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-> [!Important]
-> Please update the readme and package.json as per your project.
-
-<!-- References -->
-
-[repo]: https://github.com/xkeshav/template
