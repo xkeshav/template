@@ -1,18 +1,12 @@
 name: Bug Report
 description: File a bug report to help us improve.
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["template"]
+title: "[🐛]"
+labels: ["bug", "invalid"]
+projects: ["abcdkbd"]
 assignees:
   - "xkeshav"
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        # Welcome
-        Thanks for taking the time to fill out this bug report!
-
   - type: textarea
     id: problem
     attributes:
@@ -20,7 +14,7 @@ body:
       description: |
         Please provide as much info as possible.
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: A bug happened
     validations:
       required: true
 
@@ -54,6 +48,7 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+        - Other
 
   - type: textarea
     id: logs
@@ -77,7 +72,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/xkeshav/template/blob/main/.github/CODE_OF_CONDUCT.md).
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/recursivezero/master/blob/README.md).
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
