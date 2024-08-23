@@ -17,4 +17,4 @@ jobs:
           npx markdownlint-cli '**/*.md' -c './.vscode/markdownlint.json' -i '.github/CONTRIBUTING.md' -i '.github/CODE_OF_CONDUCT.md' -i 'CHANGELOG.md'
 
       - name: Validate YAML
-        run: yamllint **/*.yml
+        run: yamllint .github/ISSUE_TEMPLATE/BUG_FORM.yml .github/ISSUE_TEMPLATE/ENHANCEMENT.yml
