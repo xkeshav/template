@@ -24,12 +24,16 @@ This is a template repository which contains
 
 ## How to use this Template repository
 
-- open this repository[repo] in github
+- open this [repository][repo] in github
 - click on `use this template` tab; near _star_ tab
 - make changes in _package.json_ ; replace _template_ with your project name.
 - make changes in the health files under _.github_ folder; change contact email address and repository URL wherever mentioned.
 
 ## Folder Tree
+
+<!--@include:./tree-->
+
+
 
 <details>
 <summary>
