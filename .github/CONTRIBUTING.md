@@ -191,8 +191,8 @@ MIT
 
 <!-- Definitions -->
 
-[readme]: https://github.com/xkeshav/template/blob/main/README.md
-[author]: https://xkeshav.com
 [collective]: https://opencollective.com/xkeshav
+[author]: https://xkeshav.com
+[readme]: https://github.com/xkeshav/template/blob/main/README.md
 [support]: https://github.com/xkeshav/template/blob/main/.github/SUPPORT.md
 [coc]: https://github.com/xkeshav/template/blob/main/.github/CODE_OF_CONDUCT.md
