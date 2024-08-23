@@ -1,11 +1,12 @@
 # Template Repository
 
+![Template][template]
 ![License][license]
-![open issues][issues]
-![commit count][commits]
-![total pr][PR]
-![code style][code-style]
-This is a Public template repository which contains
+![Open Issues][issues]
+![Commit Count][commits]
+![Total Pull Request][PR]
+
+This is a template repository which contains
 
 - community health files under mostly under `.github`
 - _package.json_ boilerplate
@@ -94,14 +95,16 @@ This is a Public template repository which contains
 
 This project is licensed under the [MIT License](LICENSE).
 
+---
+
 > [!Important]
 > Please update the readme and package.json as per your project.
 
 <!-- References -->
 
+[template]: https://badgen.net/static/github/template?icon=github
 [repo]: https://github.com/xkeshav/template
 [license]: https://badgen.net/github/license/xkeshav/template
 [issues]: https://badgen.net/github/open-issues/xkeshav/template
 [PR]: https://badgen.net/github/prs/xkeshav/template
 [commits]: https://badgen.net/github/commits/xkeshav/template/main?color=green
-[code-style]: https://badgen.net/static/code%20style/standard/f2a
