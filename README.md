@@ -1,7 +1,10 @@
 # Template Repository
 
-![License](https://badgen.net/github/license/xkeshav/template)
-
+![License][license]
+![open issues][issues]
+![commit count][commits]
+![total pr][PR]
+![code style][code-style]
 This is a Public template repository which contains
 
 - community health files under mostly under `.github`
@@ -97,3 +100,8 @@ This project is licensed under the [MIT License](LICENSE).
 <!-- References -->
 
 [repo]: https://github.com/xkeshav/template
+[license]: https://badgen.net/github/license/xkeshav/template
+[issues]: https://badgen.net/github/open-issues/xkeshav/template
+[PR]: https://badgen.net/github/prs/xkeshav/template
+[commits]: https://badgen.net/github/commits/xkeshav/template/main?color=green
+[code-style]: https://badgen.net/static/code%20style/standard/f2a
