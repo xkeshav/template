@@ -164,7 +164,7 @@ _They are essential for promoting transparency, good practices, and collaboratio
 
 # [**YAML** Syntax][yaml]
 
-- Space separated
+- Space indented
 - different meta data for markdown/input/dropdown
 - Multiline with `|`
 - Preview and Validity on Github itself
@@ -187,7 +187,7 @@ body:
 
 # Template Repository
 
-[xkeshav/template](http://www.github.com/xkeshav/template)
+[xkeshav/template][template]
 
 - need and use of template repository
 - pre-defined health files
@@ -225,3 +225,4 @@ body:
 [open-source]: https://opensource.guide/starting-a-project/
 [markdown]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 [yaml]: https://learnxinyminutes.com/docs/yaml/
+[template]: http://www.github.com/xkeshav/template
