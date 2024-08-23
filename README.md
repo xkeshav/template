@@ -1,6 +1,6 @@
 # Template Repository
 
-[!License][https://badgen.net/github/license/xkeshav/template]
+![License](https://badgen.net/github/license/xkeshav/template)
 
 This is a Public template repository which contains
 
