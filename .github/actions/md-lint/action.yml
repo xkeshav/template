@@ -1,4 +1,6 @@
-runs: |
+runs: 
+using: 'composite'
+steps: |
   npx markdownlint-cli '**/*.md' \
   --config './github/actions/.markdownlint.json' \
   --ignore '.github/CONTRIBUTING.md' \
