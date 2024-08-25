@@ -2,9 +2,9 @@ name: markdown-lint
 run-name: learning github action from workflow
 on:
   push:
-    branches: |
-      -main
-      -develop
+    branches:
+      - main
+      - develop
 jobs:
   markdown-lint:
     runs-on: ubuntu-latest
