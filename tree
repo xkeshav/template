@@ -1,50 +1,42 @@
 .
+├── CHANGELOG.md
+├── docs
+│  └── README.md
 ├── .editorconfig
 ├── .github
-│   ├── CODEOWNERS
-│   ├── CODE_OF_CONDUCT.md
-│   ├── CONTRIBUTING.md
-│   ├── DISCUSSION_TEMPLATE
-│   │   ├── announcements.yml
-│   │   └── ideas.yml
-│   ├── FUNDING.yml
-│   ├── ISSUE_TEMPLATE
-│   │   ├── BUG_FORM.yml
-│   │   ├── ENHANCEMENT.yml
-│   │   ├── FEATURE_REQUEST.md
-│   │   ├── QUESTION.md
-│   │   └── config.yml
-│   ├── PULL_REQUEST_TEMPLATE.md
-│   ├── SECURITY.md
-│   ├── SUPPORT.md
-│   └── workflows
-│       └── markdown-lint.yml
+│  ├── actions
+│  ├── CODE_OF_CONDUCT.md
+│  ├── CODEOWNERS
+│  ├── CONTRIBUTING.md
+│  ├── DISCUSSION_TEMPLATE
+│  ├── FUNDING.yml
+│  ├── ISSUE_TEMPLATE
+│  ├── PULL_REQUEST_TEMPLATE.md
+│  ├── SECURITY.md
+│  ├── SUPPORT.md
+│  └── workflows
 ├── .gitignore
-├── .tree
-├── .vscode
-│   ├── cspell.json
-│   ├── dictionaries
-│   │   ├── project-words.txt
-│   │   └── team-member.txt
-│   ├── extensions.json
-│   ├── javascriptreact.json
-│   ├── markdownlint.json
-│   ├── pkg.json
-│   ├── settings.json
-│   ├── tasks.json
-│   └── template.code-snippets
-├── CHANGELOG.md
 ├── LICENSE
-├── README.md
-├── docs
-│   └── README.md
+├── .markdownlint.json
 ├── package.json
+├── package-lock.json
+├── .prettierignore
+├── .prettierrc
 ├── public
-│   └── assets
-│       └── images
+│  └── assets
+├── README.md
 ├── src
-│   └── index.js
+│  └── index.js
 ├── template.code-workspace
-└── tree
+├── tree
+└── .vscode
+    ├── cspell.json
+    ├── dictionaries
+    ├── extensions.json
+    ├── javascriptreact.json
+    ├── pkg.json
+    ├── settings.json
+    ├── tasks.json
+    └── template.code-snippets
 
-12 directories, 36 files
+21 directories, 37 files

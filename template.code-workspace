@@ -184,7 +184,8 @@
       }
     },
     "git.branchProtection": [
-      "develop"
+      "develop",
+      "main"
     ],
     "git.enableCommitSigning": false,
     "git.postCommitCommand": "push",
@@ -196,6 +197,9 @@
     "workbench.layoutControl.enabled": false,
     "[markdown]": {
       "diffEditor.ignoreTrimWhitespace": false
-    }
+    },
+    "files.associations": {
+      "CODEOWNERS": "plaintext"
+    },
   }
 }

@@ -1,1 +1,1 @@
-console.log('template repository');
+console.log("Hello from template repository");

@@ -1,5 +1,3 @@
-runs:
-using: "composite"
 run: |
   npx markdownlint-cli '**/*.md' \
   --config './github/actions/.markdownlint.json' \

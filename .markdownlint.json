@@ -3,19 +3,20 @@
   "MD003": {
     "style": "consistent"
   },
-  "MD029": {
-    "ol-prefix": false
-  },
+  "MD029": false,
   "MD033": {
-    "no-inline-html": false
+    "allowed_elements": [
+      "summary",
+      "details",
+      "mark"
+    ]
   },
   "MD007": {
-    "indent": 2,
-    "start-indent": 4
+    "indent": 2
   },
   "MD013": {
-    "line_length": 100,
-    "ignore_code_blocks": true,
+    "line_length": 240,
+    "code_block_line_length": 100,
     "tables": false
   },
   "no-hard-tabs": false,

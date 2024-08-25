@@ -1,6 +1,6 @@
 {
   "name": "@xkeshav/template",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "displayName": "template",
   "description": "This is a repository which have all required files to collaborate and open source your repo on GitHub.",
@@ -34,12 +34,11 @@
     "start": "node src/index.js"
   },
   "dependencies": {
-    "@xkeshav/day": "latest",
-    "@xkeshav/watch": "latest"
+    "@xkeshav/day": "latest"
   },
   "timestamp": {
     "createdOn": "14 Feb 2024",
-    "updatedOn": "22 Aug 2024"
+    "updatedOn": ""
   },
   "devDependencies": {
     "typescript": "latest"
