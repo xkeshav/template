@@ -9,7 +9,7 @@
     "indent": 2
   },
   "MD013": {
-    "line_length": 100,
+    "line_length": 200,
     "tables": false
   },
   "no-hard-tabs": false,
