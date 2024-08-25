@@ -184,7 +184,6 @@
       }
     },
     "git.branchProtection": [
-      "main",
       "develop"
     ],
     "git.enableCommitSigning": false,
