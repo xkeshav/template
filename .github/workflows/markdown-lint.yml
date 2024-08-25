@@ -18,7 +18,8 @@ jobs:
           node-version: "20"
 
       - name: Lint Markdown files
-        run: npx markdownlint-cli '**/*.md' \
+        run: |
+          npx markdownlint-cli '**/*.md' \
           --config '.github/workflows/.markdownlint.json' \
           --ignore '.github/CONTRIBUTING.md' \
           --ignore '.github/CODE_OF_CONDUCT.md'\
