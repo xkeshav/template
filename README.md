@@ -100,8 +100,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-> [!Important]
+> [!Caution]
 > Please update the readme and package.json as per your project.
+> Make sure to remove or update the _CODEOWNERS_ file.
 
 <!-- References -->
 
