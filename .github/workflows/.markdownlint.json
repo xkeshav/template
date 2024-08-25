@@ -3,19 +3,13 @@
   "MD003": {
     "style": "consistent"
   },
-  "MD029": {
-    "ol-prefix": false
-  },
-  "MD033": {
-    "no-inline-html": false
-  },
+  "MD029": false,
+  "MD033": false,
   "MD007": {
-    "indent": 2,
-    "start-indent": 4
+    "indent": 2
   },
   "MD013": {
     "line_length": 100,
-    "ignore_code_blocks": true,
     "tables": false
   },
   "no-hard-tabs": false,

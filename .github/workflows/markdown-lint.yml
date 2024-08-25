@@ -1,5 +1,6 @@
 name: markdown-lint
-on: push
+run-name: learning github action from workflow
+on: [push]
 jobs:
   markdown-lint:
     runs-on: ubuntu-latest
@@ -10,8 +11,12 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: "20"
 
       - name: Lint Markdown files
         run: |
-          npx markdownlint-cli '**/*.md' -c './.vscode/markdownlint.json' -i '.github/CONTRIBUTING.md' -i '.github/CODE_OF_CONDUCT.md' -i 'CHANGELOG.md'
+          npx markdownlint-cli '**/*.md' \
+          --config './github/workflows/.markdownlint.json' \
+          --ignore '.github/CONTRIBUTING.md' \
+          --ignore '.github/CODE_OF_CONDUCT.md'\
+          --ignore 'CHANGELOG.md'
