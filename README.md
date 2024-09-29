@@ -39,7 +39,7 @@ This is a template repository which contains
   <mark>Repository Folder Structure</mark>
 </summary>
 
-```lang-none
+```txt
 ├── .editorconfig
 ├── .github
 │   ├── CODEOWNERS
