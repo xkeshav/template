@@ -187,10 +187,6 @@ Include Other Notes on how people can contribute
 - [GitHub help](https://help.github.com)
 - [git commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 
-## License
-
-MIT
-
 ## Author
 
 © [Keshav Mohta][author]

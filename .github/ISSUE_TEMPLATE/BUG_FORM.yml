@@ -2,19 +2,21 @@ name: Bug Report
 description: File a bug report to help us improve.
 title: "[🐛]:"
 labels: ["bug", "invalid"]
-projects: ["abcdkbd"]
-assignees:
-  - "xkeshav"
+assignees: xkeshav
 
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Thanks for taking the time to create a bug report. 
+        Please search open/closed issues before submitting, as the issue may have already been reported/addressed.
+
   - type: textarea
     id: problem
     attributes:
-      label: What happened?
-      description: |
-        Please provide as much info as possible.
+      label: Describe the bug
+      description: A clear and concise description of what the bug is. If you intend to submit a PR for this issue, tell us how in the description. Thanks!
       placeholder: Tell us what you see!
-      value: A bug happened
     validations:
       required: true
 
@@ -28,12 +30,23 @@ body:
     validations:
       required: true
 
+  - type: input
+    id: sample-link
+    attributes:
+      label: Sample code link
+      description: |
+        A link to a CodeSandbox or StackBlitz that includes a minimal reproduction of the problem. In rare cases when not applicable, you can link to a GitHub repository that we can easily run to recreate the issue. If a report is vague and does not have a reproduction, it will be closed without warning. 
+
+        > [!CAUTION]
+        > If you skip this step, this issue might be **labeled** with `please add a reproduction` and **closed**.
+    validations:
+      required: false
+
   - type: textarea
     id: additional
     attributes:
-      label: Anything else we need to know?
-      description: |
-        Please provide other details if it is necessary.
+      label: System info
+      description: Please provide other details if it is necessary.
       placeholder: Software version and device details!
     validations:
       required: false
@@ -59,20 +72,13 @@ body:
     validations:
       required: false
 
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/xkeshav/template/blob/main/README.md).
+      label: Before submitting
+      description: By submitting this issue, you agree to follow our [Contributing Guidelines](https://github.com/xkeshav/template/blob/main/.github/CONTRIBUTING.md).
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: I've made research efforts and searched the documentation
+          required: true
+        - label: I've searched for existing issues
           required: true

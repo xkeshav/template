@@ -5,6 +5,7 @@ body:
     attributes:
       value: |
         introduce yourself!
+
   - type: textarea
     id: improvements
     attributes:
@@ -18,38 +19,20 @@ body:
       render: bash
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## How to connect
-        here are few connection way 
-  - type: input
+
+  - type: textarea
     id: has-id
     attributes:
-      label: Suggestions
+      label: Write us suggestions
       description: A description about suggestions to help you
     validations:
       required: true
-  - type: dropdown
-    id: download
-    attributes:
-      label: Which area of this project could be most improved?
-      options:
-        - Documentation
-        - Pull request review time
-        - Bug fix time
-        - Release cadence
-    validations:
-      required: true
+
   - type: checkboxes
+    id: terms
     attributes:
-      label: Check that box!
+      label: Before submitting
+      description: By submitting this announcement, you agree to follow our [Contributing Guidelines](https://github.com/xkeshav/template/blob/main/.github/CONTRIBUTING.md).
       options:
-        - label: This one!
+        - label: I've made research efforts and searched the documentation
           required: true
-        - label: I won't stop you if you check this one, too
-  - type: markdown
-    attributes:
-      value: |
-        ### The thrilling conclusion
-        _to our template_

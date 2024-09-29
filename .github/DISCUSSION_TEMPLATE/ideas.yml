@@ -1,4 +1,4 @@
-title: "[Idea] "
+title: "[Idea]"
 labels: ["Share your Idea"]
 body:
   - type: textarea
@@ -19,7 +19,7 @@ body:
         - Documentation
         - Pull request review time
         - Bug fix time
-        - Release cadence
+        - Enhancement
     validations:
       required: true
 
@@ -27,20 +27,21 @@ body:
     id: id
     attributes:
       label: email
-      description: your contact number
+      description: your contact email
     validations:
       required: false
 
   - type: checkboxes
+    id: terms
     attributes:
-      label: Check that box!
+      label: Before submitting
+      description: By submitting this idea, you agree to follow our [Contributing Guidelines](https://github.com/xkeshav/template/blob/main/.github/CONTRIBUTING.md).
       options:
-        - label: Read Code of conduct!
+        - label: I've made research efforts and searched the documentation
           required: true
-        - label: I won't stop you if you check this one, too
 
   - type: markdown
     attributes:
       value: |
-        ### Thanks
+        ### Thank you
         _we will contact you_ **soon**
