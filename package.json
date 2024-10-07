@@ -1,6 +1,6 @@
 {
   "name": "@xkeshav/template",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "private": false,
   "displayName": "template",
   "description": "This is a repository which have all required files to collaborate and open source your repo on GitHub.",
@@ -38,11 +38,9 @@
   },
   "timestamp": {
     "createdOn": "14 Feb 2024",
-    "updatedOn": ""
+    "updatedOn": "07 OCT 2024"
   },
-  "devDependencies": {
-    "typescript": "latest"
-  },
+  "devDependencies": {},
   "peerDependencies": {},
   "browserslist": {
     "production": [

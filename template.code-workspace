@@ -13,15 +13,7 @@
     },
     "editor.bracketPairColorization.enabled": true,
     "diffEditor.ignoreTrimWhitespace": false,
-    "[typescript]": {
-      "editor.formatOnSave": true,
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.codeActionsOnSave": {
-        "source.fixAll": "always",
-        "source.organizeImports": "explicit"
-      }
-    },
-    "[typescriptreact]": {
+    "[typescript][typescriptreact]": {
       "editor.formatOnSave": true,
       "editor.defaultFormatter": "esbenp.prettier-vscode",
       "editor.codeActionsOnSave": {
@@ -39,7 +31,6 @@
       "javascriptreact",
       "typescript",
       "typescriptreact",
-      "astro"
     ],
     "eslint.options": {
       "extensions": [
@@ -49,7 +40,6 @@
         ".mdx",
         ".ts",
         ".tsx",
-        ".astro"
       ]
     },
     "editor.tabSize": 2,
@@ -113,7 +103,6 @@
     "editor.minimap.enabled": true,
     "workbench.colorTheme": "Tokyo Night Storm",
     "editor.fontSize": 14,
-    "[javascriptreact]": {},
     "editor.accessibilitySupport": "off",
     "editor.minimap.size": "fit",
     "cSpell.customDictionaries": {
@@ -131,9 +120,6 @@
     },
     "js/ts.implicitProjectConfig.checkJs": true,
     "editor.detectIndentation": false,
-    "markdownlint.config": {
-      "MD007": false
-    },
     "workbench.colorCustomizations": {
       "activityBar.activeBackground": "#2f7c47",
       "activityBar.background": "#2f7c47",
@@ -176,13 +162,6 @@
     "prettier.documentSelectors": [
       "**/*.astro"
     ],
-    "[astro]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.codeActionsOnSave": {
-        "source.fixAll": "always",
-        "source.organizeImports": "explicit"
-      }
-    },
     "git.branchProtection": [
       "develop",
       "main"
@@ -201,5 +180,6 @@
     "files.associations": {
       "CODEOWNERS": "plaintext"
     },
+    "explorer.compactFolders": false,
   }
 }

@@ -9,7 +9,7 @@ Please read through the following guidelines.
 
 ## Asking quality questions
 
-Questions can go to [GitHub discussions][dicussion].
+Questions can go to [GitHub discussions][discussion].
 
 Help us help you!
 
@@ -43,7 +43,7 @@ See [`contributing.md`][contributing] on how to contribute.
 [author]: https://xkeshav.com
 [coc]: https://github.com/xkeshav/template/blob/main/.github/CODE_OF_CONDUCT.md
 [chat]: https://github.com/xkeshav/template/discussions/new?category=general
-[dicussion]: https://github.com/xkeshav/template/discussions/new?category=q-a
+[discussion]: https://github.com/xkeshav/template/discussions/new?category=q-a
 [contributing]: https://github.com/xkeshav/template/blob/main/.github/CONTRIBUTING.md
 [xy]: https://meta.stackexchange.com/questions/66377/what-is-the-xy-problem/66378#66378
 [cs]: https://codesandbox.io

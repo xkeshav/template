@@ -2,7 +2,7 @@ name: Bug Report
 description: File a bug report to help us improve.
 title: "[🐛]:"
 labels: ["bug", "invalid"]
-assignees: xkeshav
+assignees: ["xkeshav"]
 
 body:
   - type: markdown
@@ -71,6 +71,16 @@ body:
       render: shell
     validations:
       required: false
+
+  - type: dropdown
+    id: self-assign
+    attributes:
+      label: Assignment
+      description: Let us know if you would like to be assigned this Issue
+      options:
+        - This issue is free for anyone to take
+        - I'd like to work on this Issue myself
+      default: 0
 
   - type: checkboxes
     id: terms

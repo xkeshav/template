@@ -28,7 +28,9 @@ Apart from that there are few files on project root
 - `.markdownlint.json` --> file require for markdownlint extension
 
 - `.template-code-workspace` --> file have few basic and useful vs code settings; you can change as per your project requirement.
+
 - `.editorconfig` --> config regarding files to use tab/space or end of file etc.
+
 - `.prettierrc` --> required config for vscode-prettier extension
 
 ### How to run
