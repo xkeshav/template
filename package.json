@@ -31,11 +31,10 @@
   ],
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "@xkeshav/day": "latest"
-  },
+  "dependencies": {},
   "timestamp": {
     "createdOn": "14 Feb 2024",
     "updatedOn": "07 OCT 2024"
