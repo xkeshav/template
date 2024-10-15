@@ -1,5 +1,7 @@
 name: markdown-lint
 run-name: learning github action from workflow
+env:
+  DOCS_CHANGED: false
 on:
   push:
     branches:
@@ -17,5 +19,27 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Check changed files
+        run: |
+          echo "### File Check! :rocket:" >> $GITHUB_STEP_SUMMARY
+          # Check if there is a previous commit
+          if git rev-parse HEAD^ >/dev/null 2>&1; then
+            # Get a list of changed files between the last commit and the previous commit
+            changed_files=$(git diff --name-only HEAD^ HEAD)
+          else
+            # In case of no previous commit, use the initial commit
+            changed_files=$(git diff --name-only HEAD)
+          fi
+
+          # Check if any of the changed files have a .md extension
+          echo "Changed files: $changed_files"
+          if echo "$changed_files" | grep -q '\.md$'; then
+            echo "DOCS_CHANGED=true" >> $GITHUB_ENV
+          else
+            echo "DOCS_CHANGED=false" >> $GITHUB_ENV
+          fi
+          echo "${{env.DOCS_CHANGED }} or $DOCS_CHANGED"
+
       - name: Lint Markdown files
+        if: ${{env.DOCS_CHANGED == true}}
         uses: ./.github/actions/md-lint

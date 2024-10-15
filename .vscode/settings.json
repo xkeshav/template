@@ -1,47 +1,243 @@
 {
-  "git.autofetch": true,
-  "workbench.startupEditor": "none",
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[json][jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+  "[CODEOWNERS]": {
+    "editor.formatOnSave": false
   },
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
+  "[json][jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    }
+  },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.customDictionaries": {
-    "my-words": {
-      "name": "myDictionary",
-      "path": "~/myDictionary.txt",
-      "description": "Words used for my own context.",
-      "addWords": true
-    },
-    "custom": true, // Enable the `custom` dictionary
-    "internal-terms": false // Disable the `internal-terms` dictionary
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "editor.accessibilitySupport": "off",
-  "git.openRepositoryInParentFolders": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "editor.linkedEditing": true,
-  "cSpell.userWords": [
-    "nojekyll",
-    "testid"
+  "cSpell.customDictionaries": {
+    "custom": true,
+    "internal-terms": false,
+    "my-words": {
+      "addWords": true,
+      "description": "Words used for my own context.",
+      "name": "myDictionary",
+      "scope": "user",
+      "path": "~/myDictionary.txt"
+    }
+  },
+  "cSpell.enableFiletypes": [
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!pug",
+    "python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!yaml",
+    "!yml",
+    "diff",
+    "dotenv",
+    "jsx",
+    "jsx-attr",
+    "jsx-tags",
+    "log",
+    "shellscript",
+    "astro"
   ],
+  "cSpell.ignorePaths": [
+    "package-lock.json",
+    "package.json",
+    "node_modules",
+    "vscode-extension",
+    ".git/objects",
+    ".vscode",
+    ".vscode-insiders"
+  ],
+  "cSpell.userWords": [
+    "nocheck",
+    "nojekyll",
+    "testid",
+    "parixan"
+  ],
+  "dateTime.customFormat": "ddd, MMM D, YYYY hh:mm A",
+  "debug.javascript.codelens.npmScripts": "never",
+  "debug.showVariableTypes": true,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.accessibilitySupport": "off",
+  "editor.comments.insertSpace": true,
+  "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.inlayHints.enabled": "onUnlessPressed",
+  "editor.insertSpaces": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.size": "fit",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.stickyScroll.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.tabCompletion": "onlySnippets",
   "editor.tabSize": 2,
-  "git.enableSmartCommit": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "astro": "html"
+  },
+  "emmet.syntaxProfiles": {
+    "jsx": {
+      "markup.attributes": {
+        "class*": "className"
+      },
+      "markup.valuePrefix": {
+        "class*": "myStyles"
+      }
+    }
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.excludeGitIgnore": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.ts": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    ".gitignore": ".npmrc, .eslint*,.editorconfig,.babelrc,.prettier*, .git*",
+    "package.json": "package-lock.json, yarn.lock",
+    "tsconfig.json": "tsconfig.*.json"
+  },
+  "extensions.ignoreRecommendations": true,
+  "files.associations": {
+    "*.mdx": "markdown",
+    ".1": "shellscript",
+    "CODEOWNERS": "plaintext"
+  },
+  "files.autoSave": "afterDelay",
+  "files.defaultLanguage": "markdown",
+  "files.exclude": {
+    "**/node_modules/": true
+  },
+  "files.simpleDialog.enable": true,
   "files.watcherExclude": {
     "**/node_modules/*/**": true
   },
-  "files.autoSave": "afterDelay",
+  "git.autofetch": true,
   "git.branchProtection": [
     "main",
     "develop"
   ],
-  "[CODEOWNERS]": {
-    "editor.formatOnSave": false
-  }
+  "git.confirmSync": false,
+  "git.defaultCloneDirectory": "~/dev",
+  "git.enableSmartCommit": true,
+  "git.openAfterClone": "alwaysNewWindow",
+  "git.openRepositoryInParentFolders": "always",
+  "github.gitProtocol": "ssh",
+  "git.postCommitCommand": "push",
+  "git.rememberPostCommitCommand": true,
+  "git.replaceTagsWhenPull": true,
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "javascript.preferences.quoteStyle": "single",
+  "markdownlint.config": {
+    "MD003": false,
+    "MD033": false
+  },
+  "peacock.affectSideBarBorder": true,
+  "peacock.affectTabActiveBorder": true,
+  "peacock.surpriseMeOnStartup": true,
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#dd0531"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "Purple",
+      "value": "#741258"
+    },
+    {
+      "name": "Something Different",
+      "value": "#6A3B98"
+    },
+    {
+      "name": "pinky",
+      "value": "#d74692de"
+    },
+    {
+      "name": "vibrant",
+      "value": "#098756"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    }
+  ],
+  "projectManager.git.baseFolders": [
+    "~/dev"
+  ],
+  "prettier.printWidth": 140,
+  "prettier.singleQuote": true,
+  "redhat.telemetry.enabled": true,
+  "search.showLineNumbers": true,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.autoDetectColorScheme": true,
+  "window.title": "${activeFolderMedium}${separator}${activeEditorShort}${separator}${rootName}${separator}${dirty}",
+  "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+  "workbench.editor.pinnedTabSizing": "compact",
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "workbench.editorAssociations": {
+    "*.log": "default"
+  },
+  "workbench.externalBrowser": "chrome",
+  "workbench.iconTheme": "file-icons",
+  "workbench.layoutControl.enabled": false,
+  "workbench.layoutControl.type": "menu",
+  "workbench.list.multiSelectModifier": "alt",
+  "workbench.startupEditor": "none",
+  "workbench.tree.enableStickyScroll": true,
+  "zenMode.centerLayout": false,
+  "zenMode.hideLineNumbers": false
 }

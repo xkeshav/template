@@ -1,0 +1,17 @@
+{
+  "xk": {
+    "scope": "markdown, json",
+    "prefix": "xk",
+    "body": ["${1|xkeshav,xkeshav@gmail.com,Keshav Mohta|}"],
+    "description": "say my email",
+  },
+  "current date": {
+    "scope": "astro, javascript, typescript",
+    "prefix": "now",
+    "body": [
+      "Date: $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT $CURRENT_YEAR $CURRENT_HOUR:$CURRENT_MINUTE $CURRENT_TIMEZONE_OFFSET",
+      "$0",
+    ],
+    "description": "print current date and time in dd mmm yyyy hh:mm +0:00 format",
+  },
+}
