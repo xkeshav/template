@@ -1,0 +1,53 @@
+name: "Format Issue ID"
+description: "Replaces placeholder or appends formatted ID to GitHub issue titles"
+inputs:
+  prefix:
+    description: "Prefix for the identifier (e.g., TZF)"
+    required: true
+  placeholder:
+    description: "Optional placeholder to replace (e.g., X)"
+    required: false
+  dry_run:
+    description: "If true, logs the new title but doesn't update"
+    required: false
+    default: "false"
+runs:
+  using: "composite"
+  steps:
+    - shell: bash
+      env:
+        PREFIX: ${{ inputs.prefix }}
+        PLACEHOLDER: ${{ inputs.placeholder }}
+        DRY_RUN: ${{ inputs.dry_run }}
+        GH_TOKEN: ${{ env.GITHUB_TOKEN }}
+      run: |
+        ISSUE_NUMBER=${{ github.event.issue.number }}
+        OLD_TITLE="${{ github.event.issue.title }}"
+        YEAR=$(date +%y)
+        PADDED_NUM=$(printf "%04d" "$ISSUE_NUMBER")
+        IDENTIFIER="${PREFIX}-${YEAR}${PADDED_NUM}"
+
+        if echo "$OLD_TITLE" | grep -q "$IDENTIFIER"; then
+          echo "Identifier already present. Skipping."
+          exit 0
+        fi
+
+        if [ -n "$PLACEHOLDER" ]; then
+          NEW_TITLE=$(echo "$OLD_TITLE" | sed "s/$PLACEHOLDER/$IDENTIFIER/g")
+        else
+          NEW_TITLE="${OLD_TITLE} ${IDENTIFIER}"
+        fi
+
+        if [ "$OLD_TITLE" = "$NEW_TITLE" ]; then
+          NEW_TITLE="${OLD_TITLE} ${IDENTIFIER}"
+        fi
+
+        echo "New title would be: $NEW_TITLE"
+
+        if [ "$DRY_RUN" = "true" ]; then
+          echo "Dry-run enabled. Not updating title."
+          exit 0
+        fi
+
+        gh issue edit "$ISSUE_NUMBER" --title "$NEW_TITLE" --repo "${{ github.repository }}"
+        echo "Title updated successfully."
