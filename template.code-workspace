@@ -170,7 +170,8 @@
       "titleBar.activeBackground": "#23c172",
       "titleBar.activeForeground": "#15202b",
       "titleBar.inactiveBackground": "#23c17299",
-      "titleBar.inactiveForeground": "#15202b99"
+      "titleBar.inactiveForeground": "#15202b99",
+      "tab.activeBorder": "#3bdc8b"
     },
     "typescript.implementationsCodeLens.enabled": true,
     "workbench.colorTheme": "Tokyo Night Storm",
