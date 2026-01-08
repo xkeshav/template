@@ -38,31 +38,6 @@
       "path": "~/myDictionary.txt"
     }
   },
-  "cSpell.enableFiletypes": [
-    "!c",
-    "!cpp",
-    "!csharp",
-    "!go",
-    "!handlebars",
-    "!haskell",
-    "!jade",
-    "!java",
-    "!pug",
-    "python",
-    "!restructuredtext",
-    "!rust",
-    "!scala",
-    "!yaml",
-    "!yml",
-    "diff",
-    "dotenv",
-    "jsx",
-    "jsx-attr",
-    "jsx-tags",
-    "log",
-    "shellscript",
-    "astro"
-  ],
   "cSpell.ignorePaths": [
     "package-lock.json",
     "package.json",
@@ -239,5 +214,27 @@
   "workbench.startupEditor": "none",
   "workbench.tree.enableStickyScroll": true,
   "zenMode.centerLayout": false,
-  "zenMode.hideLineNumbers": false
+  "zenMode.hideLineNumbers": false,
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#fbe187",
+    "activityBar.background": "#fbe187",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#059a79",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#fbe187",
+    "sideBar.border": "#fbe187",
+    "statusBar.background": "#f9d456",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#f7c725",
+    "statusBarItem.remoteBackground": "#f9d456",
+    "statusBarItem.remoteForeground": "#15202b",
+    "tab.activeBorder": "#fbe187",
+    "titleBar.activeBackground": "#f9d456",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#f9d45699",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#f9d456"
 }
