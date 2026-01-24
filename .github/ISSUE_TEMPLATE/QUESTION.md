@@ -1,9 +1,10 @@
 ---
 name: Question
 about: Use this template to ask a question about the project
-title: ❓
+title: "❓"
 labels: question
 assignees: xkeshav
+
 ---
 
 ## Question
